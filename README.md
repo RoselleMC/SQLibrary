@@ -1,3 +1,16 @@
+##### 使用方法
+> Gradle
+```
+repositories {
+    maven {url 'http://mc3.roselle.vip:602/maven-repositories/'}
+}
+
+dependencies {
+    implementation 'lib.PatPeter.SQLibrary:SQLibrary:7.1'
+}
+```
+
+```
 Version 7.0 (release)
 - Built on Bukkit 1.7.4-R0.2.
 - Removed bad design pattern and replaced with hierarchy (one of the original reasons for forking this library).
@@ -177,3 +190,4 @@ Version 1.1
 
 Version 1.0
 - Release.
+```
